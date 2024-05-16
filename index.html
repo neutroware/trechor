@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Filter And Search</title>
     <!-- Google Font -->
@@ -9,39 +11,10 @@
       rel="stylesheet"
     />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <title>Trechor</title>
   </head>
   <body>
-    <div class="wrapper">
-      <nav>
-        <h1>Trechor</h1>
-      <div id="search-container">
-        <input
-          type="search"
-          id="search-input"
-          placeholder="Search product name here.."
-        />
-        <button id="search">Search</button>
-      </div>
-      </nav>
-      <div id="buttons">
-        <button class="button-value" onclick="filterProduct('all')">All</button>
-        <button class="button-value" onclick="filterProduct('Topwear')">
-          Topwear
-        </button>
-        <button class="button-value" onclick="filterProduct('Bottomwear')">
-          Bottomwear
-        </button>
-        <button class="button-value" onclick="filterProduct('Jacket')">
-          Jacket
-        </button>
-        <button class="button-value" onclick="filterProduct('Watch')">
-          Watch
-        </button>
-      </div>
-      <div id="products"></div>
-    </div>
-    <!-- Script -->
-    <script src="script.js"></script>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
